@@ -9,7 +9,7 @@ This installer targets the **USB interface** of the board.
 
 - Download [Raspbian Stretch with Desktop](https://www.raspberrypi.org/downloads/raspbian/)
 - Follow the [installation instruction](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) to create the SD card
-- Start your RPi connected to Ethernet (Wi-Fi or Wire)
+- Start your RPi connected to internet (via Wi-Fi or Ethernet)
 - Install RAK833 on mPCIE2USB board and plug it to RPi
   
 - Configure locales and time zone
@@ -20,19 +20,19 @@ This installer targets the **USB interface** of the board.
         $ sudo apt-get upgrade
         $ sudo apt-get install git
  
-- Clone [the installer](https://github.com/RAKWireless/RAK833-LoRaGateway/) and start the installation
+- Clone [the installer](https://github.com/RAKWireless/RAK833-LoRaGateway-RPi-TTN/) and start the installation
 
-        $ git clone https://github.com/RAKWireless/RAK833-LoRaGateway.git ~/rak833-loragateway
+        $ git clone https://github.com/RAKWireless/RAK833-LoRaGateway-RPi-TTN.git ~/rak833-loragateway
         $ cd ~/rak833-loragateway
         $ sudo ./install.sh
 
-- You will be see a message like. Reply ‘n’ to the question.
+- You will see a message which ask you a question like the following information. You should type ‘n’.
 
 		Gateway configuration:
 		Detected EUI B827EBFFFE9BFF6C from eth0
 		Do you want to use remote settings file? [y/N]
 
-- Next you will be see message like. Type Enter keep default or enter your information.
+- Next you will see some messages as follow. Just hit the Enter key to keep default or enter your information if you want.
 
 		Host name [ttn-gateway]:
 		Descriptive name [ttn-rak833]:
