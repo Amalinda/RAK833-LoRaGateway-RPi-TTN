@@ -20,10 +20,10 @@ This installer targets the **USB interface** of the board.
         $ sudo apt-get upgrade
         $ sudo apt-get install git
  
-- Clone [the installer](https://github.com/RAKWireless/rak833-gateway/) and start the installation
+- Clone [the installer](https://github.com/RAKWireless/RAK833-LoRaGateway/) and start the installation
 
-        $ git clone https://github.com/RAKWireless/rak833-gateway.git ~/rak833-gateway
-        $ cd ~/rak833-gateway
+        $ git clone https://github.com/RAKWireless/RAK833-LoRaGateway.git ~/rak833-loragateway
+        $ cd ~/rak833-loragateway
         $ sudo ./install.sh
 
 - You will be see a message like. Reply ‘n’ to the question.
